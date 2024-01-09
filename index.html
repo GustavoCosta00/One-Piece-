@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body class="bg-dark">
+    <header class="bg-light">
+     <nav class="navbar navbar-expand-lg container ">
+        <div class="container-fluid">
+          <a class="navbar-brand col-10 pt-3 pb-3" href="#"><img src="img/bandeira.png" alt="" class="flag"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link " href="#">Sobre</a>
+              <a class="nav-link " href="#">Projetos</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div id="carouselExampleIndicators" class="carousel slide container">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/1ecde018e863e2aaee31f00a23378c35.jpe" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/luffy-one-piece-1015.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/gear-5-in-anime-1.webp" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <section class="about container">
+        <h3>ONE PIECE</h3>
+        <div class="container text-center">
+          <di v class="row itens">
+            <div class="col">
+              <img src="img/gear-5-in-anime-1.webp" class="d-block w-100 gear-5-img" alt="...">
+            </div>
+            <div class="col">
+              <h4>Um anime único!</h4>
+              <p>LUFFY, um jovem com o corpo elástico que sonha em criar sua própria tripulação e partir em uma aventura para se tornar o próximo Rei dos Piratas.</p>
+              <a href="#">
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  Veja o novo Gear-5!
+                </button>
+              </a>
+            </div>
+          </di>
+        </div>
+
+        <!-- MODAL -->  
+
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" id="close-video"></button>
+              </div>
+              <div class="modal-body">
+                <video src="video/Gear Five! _ One Piece_converted.mp4" class="luffy-gear5" controls poster="img/gear-5-in-anime-1.webp" id="video-luffy"></video>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+      <section class="container tripulation">
+        <h3>TRIPULAÇÃO (Mugiwaras)</h3>
+        <ul class="characters d-flex flex-row ">
+          <li><img src="img/rosto luffy.jpg" alt="" class="mugiwaras"><h4 class="name_mugiwaras">Luffy</h4></li>
+          <li><img src="img/zoro.jpg" alt="" class="mugiwaras"><h4 class="name_mugiwaras">Zoro</h4></li>
+          <li><img src="img/nami.jpg" alt="" class="mugiwaras"><h4 class="name_mugiwaras">Nami</h4></li>
+          <li><img src="img/ussop.jpg" alt="" class="mugiwaras"><h4 class="name_mugiwaras">Usoop</h4></li>
+          <li><img src="img/sanji.jpg" alt="" class="mugiwaras"><h4 class="name_mugiwaras">Sanji</h4></li>
+        </ul>
+        <ul class="characters d-flex flex-row ">
+          <li><img src="img/chopper.jpg" alt="" class="mugiwaras"><h4 class="name_mugiwaras">Chopper</h4></li>
+          <li><img src="img/robyn.jpg" alt="" class="mugiwaras"><h4 class="name_mugiwaras">Robyn</h4></li>
+          <li><img src="img/franky.jpg" alt="" class="mugiwaras"><h4 class="name_mugiwaras">Franky</h4></li>
+          <li><img src="img/brook.jpg" alt="" class="mugiwaras"><h4 class="name_mugiwaras">Brook</h4></li>
+          <li><img src="img/jinbe.jpg" alt="" class="mugiwaras"><h4 class="name_mugiwaras">Jinbe</h4></li>
+        </ul>
+      </section>
+
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

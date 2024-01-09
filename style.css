@@ -1,0 +1,83 @@
+*{
+    color: white;
+}
+
+
+#carouselExampleIndicators{
+    margin-top: 2rem;
+}
+
+
+
+.carousel-inner{
+    max-height: 80vh;
+    border-radius: 10px;   
+}
+
+.d-block{
+    opacity: 0.4;
+}
+
+.about{
+    margin-top: 10rem;
+    flex-wrap: wrap;
+}
+
+h3{
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.itens{
+    
+    align-items: center;
+}
+
+.characters{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+li{
+    list-style-type: none;
+    padding: 15px;
+}
+
+.tripulation{
+    margin-top: 6rem;
+}
+
+.mugiwaras{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.name_mugiwaras{
+    text-align: center;
+}
+
+.gear-5{
+    padding: 20px;
+}
+
+.gear-5-img:hover{
+    opacity: 0.9;
+    transition: 0.5s;
+}
+
+a{
+    color: rgb(232, 228, 228);
+}
+
+.luffy-gear5{
+    width: 100%;
+    border-radius: 5px;
+}
+
+
+.flag{
+    width: 200px;
+    height: 80px;
+}
