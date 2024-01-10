@@ -9,6 +9,11 @@
 
 
 
+#exampleModalLabel{
+    color: black;
+    
+}
+
 .carousel-inner{
     max-height: 80vh;
     border-radius: 10px;   
@@ -87,3 +92,33 @@ a{
     width: 200px;
     height: 80px;
 }
+
+.modal-information{
+    height: 80vh;
+    text-align: center;
+}
+
+#name_information{
+    color: black;
+}
+
+#img_information{
+    width: 80%;
+    height: 200px;
+    border-radius: 10px;
+}
+
+#modal_text_information{
+    color: rgb(23, 22, 22);
+    text-align: center;
+}
+
+.img_reward{
+    width: 130px;
+    height: 180px;
+}
+
+.modal_information{
+    margin-top: 3rem;
+}
+
